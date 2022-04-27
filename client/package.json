@@ -4,11 +4,7 @@
   "private": true,
   "dependencies": {
     "@web3-react/injected-connector": "^6.0.7",
-<<<<<<< HEAD
     "gh-pages": "^2.0.1",
-=======
-    "gh-pages": "^3.2.3",
->>>>>>> 67d8ddec3391808eace250343ce7a8b27c1ac482
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-metamask-login-button": "^1.0.18",
@@ -26,11 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-<<<<<<< HEAD
-  "eslintnConfig": {
-=======
   "eslintConfig": {
->>>>>>> 67d8ddec3391808eace250343ce7a8b27c1ac482
     "extends": "react-app"
   },
   "browserslist": {
