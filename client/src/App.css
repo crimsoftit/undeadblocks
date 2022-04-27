@@ -658,21 +658,9 @@ font-weight: bolder;
 }
 
 
-$font: 
 
-::selection { background-color: #C3CFE2; }
 
-#a_text {
-text-transform: uppercase;
-background: linear-gradient(to right, #F0E68C 0%, #9b250a 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-	font: {
-			size: 26vw;
-			family: 'Poppins', sans-serif;
-			weight: 600;
-		};
-	}
+
 	#surv_d {
 	margin-top: 15px;
 	}
@@ -684,7 +672,6 @@ margin-top: 18px;
 .w_det {
 color: #fff;
 font-size: 12px;
-margin-top: -10px;
 }
 
 .w_det1 {
@@ -692,9 +679,9 @@ font-size: 10px;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1600px) {
 	.c_slider {
-		width: 42.5%;
+		width: 37.5%;
 		height: 100%;
 		margin: 0 auto;
 		margin-top: -10px;
@@ -715,6 +702,31 @@ font-size: 10px;
 		width: 90%;
 		margin-top: 150px;
 		font-size: 16px;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+	.c_slider {
+		width: 55.5%;
+		height: 100%;
+		margin: 0 auto;
+		margin-top: -10px;
+		margin-bottom: 70px;
+	}
+	.the_images {
+		width: 70%;
+		min-height: 100%;
+	}
+
+	.card > img {
+		width: 55%;
+		height: fit-content;
+		border-radius: 50%;
+	}
+
+	.d_container {
+		margin-top: 30px;
 	}
 	
 }

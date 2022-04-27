@@ -5,12 +5,15 @@ import getWeb3 from "./getWeb3";
 import Web3 from 'web3';
 import "./App.css";
 import logo from './images/home_logo.png';
-import amateur_bg from './images/amateur_bg.PNG';
 import udb from './images/udb.png';
 import add_icon from './images/add_icon.PNG';
-import survivor_bg from './images/survivor_bg.png';
 import MetaMaskLoginButton from 'react-metamask-login-button';
 import WalletCard from './WalletCard';
+
+import amateur_bg from './images/amateur_bg.PNG';
+import survivor_bg from './images/survivor_bg.png';
+import assassin_bg from './images/assassin_bg.png';
+import z_killer from './images/z_killer.PNG';
 
 class App extends Component {
   	state = { storageValue: 0, web3: null, accounts: null, contract: null };
@@ -131,7 +134,7 @@ class App extends Component {
 										<div className="the_images">
 											<div className="card">
 												<h5 className="card_title">ASSASSIN</h5>
-												<img className="ban_i" src="./src/images/assassin_bg.png"/>
+												<img className="ban_i" src={ assassin_bg }/>
 												<div className="d_container" id="ass_d">
 													<h3 className="w_price">
 														0.5 ETH
@@ -154,7 +157,7 @@ class App extends Component {
 										<div className="the_images">
 											<div className="card">
 												<h5 className="card_title">ZOMBIE KILLER</h5>
-												<img className="ban_i" src="./src/images/z_killer.PNG" />
+												<img className="ban_i" src={ z_killer } />
 												<div className="d_container" id="zombie_d">
 													<h3 className="w_price">
 														1 ETH
